@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FinalProgressive Suite]">
+  <listeners>
+    <listener class-name="utilities.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="FourthPageTest(failed)">
+    <classes>
+      <class name="com.progressive.testClasses.NewCarInformationFour">
+        <methods>
+          <include name="carAge"/>
+          <include name="doneButton"/>
+          <include name="modelyear"/>
+          <include name="setUp"/>
+          <include name="lease"/>
+          <include name="carmodel"/>
+          <include name="tearDown"/>
+          <include name="checkbox"/>
+          <include name="contiButton"/>
+          <include name="primaryUse"/>
+          <include name="carname"/>
+          <include name="bodyType"/>
+        </methods>
+      </class> <!-- com.progressive.testClasses.NewCarInformationFour -->
+    </classes>
+  </test> <!-- FourthPageTest(failed) -->
+  <test thread-count="5" name="FifthPageTest(failed)">
+    <classes>
+      <class name="com.progressive.testClasses.QuestionPageFive">
+        <methods>
+          <include name="licensestatus"/>
+          <include name="empStatus"/>
+          <include name="maritalStatus"/>
+          <include name="pResidance"/>
+          <include name="ContiButton"/>
+          <include name="setUp"/>
+          <include name="violation"/>
+          <include name="socialSecurity"/>
+          <include name="education"/>
+          <include name="lastMove"/>
+          <include name="gender"/>
+          <include name="tearDown"/>
+          <include name="licenseAge"/>
+          <include name="accidentDamage"/>
+          <include name="licenseAnotherstateage"/>
+        </methods>
+      </class> <!-- com.progressive.testClasses.QuestionPageFive -->
+    </classes>
+  </test> <!-- FifthPageTest(failed) -->
+  <test thread-count="5" name="SixthPageTest(failed)">
+    <classes>
+      <class name="com.progressive.testClasses.SpouseInformationSix">
+        <methods>
+          <include name="spouselicenseAge"/>
+          <include name="spouselicensestatus"/>
+          <include name="setUp"/>
+          <include name="spouseContiButton"/>
+          <include name="spouseempstatus"/>
+          <include name="spouseviolation"/>
+          <include name="spouseaccidentDamage"/>
+          <include name="spouselicenseAnotherstateage"/>
+          <include name="spousedateofbirth"/>
+          <include name="spousefirstname"/>
+          <include name="spouseedulevel"/>
+          <include name="tearDown"/>
+          <include name="spousegender"/>
+        </methods>
+      </class> <!-- com.progressive.testClasses.SpouseInformationSix -->
+    </classes>
+  </test> <!-- SixthPageTest(failed) -->
+  <test thread-count="5" name="SeventhPageTest(failed)">
+    <classes>
+      <class name="com.progressive.testClasses.SecondcontinuepageSeven">
+        <methods>
+          <include name="setUp"/>
+          <include name="confirmproperly"/>
+          <include name="tearDown"/>
+          <include name="clickingcontinuebutton"/>
+          <include name="confirm"/>
+          <include name="checkinformation"/>
+        </methods>
+      </class> <!-- com.progressive.testClasses.SecondcontinuepageSeven -->
+    </classes>
+  </test> <!-- SeventhPageTest(failed) -->
+  <test thread-count="5" name="EighthPageTest(failed)">
+    <classes>
+      <class name="com.progressive.testClasses.FinalDetailsEight">
+        <methods>
+          <include name="umbrellapolicy"/>
+          <include name="setUp"/>
+          <include name="finishbuy"/>
+          <include name="continueb"/>
+          <include name="insuranceStart"/>
+          <include name="autoinsurance"/>
+          <include name="nothanks"/>
+          <include name="injurylimit"/>
+          <include name="timewithcompany"/>
+          <include name="email"/>
+          <include name="insurancequ"/>
+          <include name="tearDown"/>
+          <include name="nonautoinsurance"/>
+        </methods>
+      </class> <!-- com.progressive.testClasses.FinalDetailsEight -->
+    </classes>
+  </test> <!-- EighthPageTest(failed) -->
+  <test thread-count="5" name="NinethPageTest(failed)">
+    <classes>
+      <class name="com.progressive.testClasses.PolicyDetailNine">
+        <methods>
+          <include name="phone"/>
+          <include name="policynumber"/>
+          <include name="setUp"/>
+          <include name="continuebuttonsss"/>
+          <include name="recievedocuments"/>
+          <include name="spouselicenseno"/>
+          <include name="tearDown"/>
+          <include name="licenseno"/>
+          <include name="vinnumber"/>
+          <include name="companyname"/>
+        </methods>
+      </class> <!-- com.progressive.testClasses.PolicyDetailNine -->
+    </classes>
+  </test> <!-- NinethPageTest(failed) -->
+  <test thread-count="5" name="TenthPageTest(failed)">
+    <classes>
+      <class name="com.progressive.testClasses.FinalReviewTen">
+        <methods>
+          <include name="continuebut"/>
+          <include name="finalquotationbutton"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="finalreview"/>
+          <include name="verification"/>
+        </methods>
+      </class> <!-- com.progressive.testClasses.FinalReviewTen -->
+    </classes>
+  </test> <!-- TenthPageTest(failed) -->
+</suite> <!-- Failed suite [FinalProgressive Suite] -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FinalProgressive Suite">
+
+	<listeners>
+
+		<listener class-name="utilities.ExtentListeners"/>
+
+
+
+	</listeners>
+
+
+	<test name="FirstPageTest">
+		<classes>
+			<class name="com.progressive.testClasses.HomePageOne" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="SecondPageTest">
+		<classes>
+			<class name="com.progressive.testClasses.GettingQuotePageTwo" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="ThirdPageTest">
+		<classes>
+			<class name="com.progressive.testClasses.InformationFormThree" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="FourthPageTest">
+		<classes>
+			<class name="com.progressive.testClasses.NewCarInformationFour" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="FifthPageTest">
+		<classes>
+			<class name="com.progressive.testClasses.QuestionPageFive" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="SixthPageTest">
+		<classes>
+			<class name="com.progressive.testClasses.SpouseInformationSix" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="SeventhPageTest">
+		<classes>
+			<class
+				name="com.progressive.testClasses.SecondcontinuepageSeven" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="EighthPageTest">
+		<classes>
+			<class name="com.progressive.testClasses.FinalDetailsEight" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="NinethPageTest">
+		<classes>
+			<class name="com.progressive.testClasses.PolicyDetailNine" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="TenthPageTest">
+		<classes>
+			<class name="com.progressive.testClasses.FinalReviewTen" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+
+
+
+
+
+</suite> <!-- Suite -->
